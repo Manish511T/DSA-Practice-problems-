@@ -1,2 +1,3 @@
-.test.drawio
-.test.exe
+# Ignore specific files
+test.drawio
+test.exe
