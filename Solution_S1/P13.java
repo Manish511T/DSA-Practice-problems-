@@ -1,5 +1,6 @@
 /*
- *  **Difficulty**: Easy  
+ *13. **Reversing a String** 
+ *   **Difficulty**: Easy  
     **Topics**: Basic Programming, String Manipulation  
     **Description**: Write a program to reverse a given string.  
     **Example**:  
