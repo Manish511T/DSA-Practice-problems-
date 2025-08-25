@@ -16,8 +16,7 @@ public class P10 {
         if(n1%n2==0){
             return n2;
         }else{
-            int temp = n1%n2;
-            return GCD(n2, temp);
+            return GCD(n2, n1%n2);
         }
 
     }
@@ -28,15 +27,7 @@ public class P10 {
         int n1 = scanner.nextInt();
         System.out.print("Enter n2 number: ");
         int n2 = scanner.nextInt();
-
-        if (n1<n2){
-            System.out.print(GCD(n2, n1));
-        }else{
-            System.out.print(GCD(n1, n2));
-        }
-        
-        
-        
+        System.out.print(GCD(n1, n2));
         scanner.close();
     }
 }
